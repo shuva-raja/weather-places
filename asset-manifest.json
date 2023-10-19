@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/weather-places/static/css/main.a6a73302.css",
+    "main.js": "/weather-places/static/js/main.277f4bb4.js",
+    "static/media/sky.jpg": "/weather-places/static/media/sky.15ff8e29c61e3fa8b2e8.jpg",
+    "index.html": "/weather-places/index.html",
+    "main.a6a73302.css.map": "/weather-places/static/css/main.a6a73302.css.map",
+    "main.277f4bb4.js.map": "/weather-places/static/js/main.277f4bb4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6a73302.css",
+    "static/js/main.277f4bb4.js"
+  ]
+}
