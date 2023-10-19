@@ -1,0 +1,164 @@
+
+.app{
+    width:100vw;
+    height:100vh;
+    background-color: #2a2929; 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-family: 'Tilt Prism','Roboto', cursive;
+    font-weight: bolder;
+    background-size:cover;
+    background-position:center;
+  }
+  .all{
+    display: flex;
+  }
+  .left{
+    background-color: #000000d0;
+    width:15vw;
+    height:50vh;
+    border-radius:8px;
+  }
+  .right{
+   background-color: #000000;
+    width: 15vw;
+    height:50vh;
+    border-radius:8px;
+    display: flex;
+    flex-direction:column;
+    line-height: 30px;
+    color: aliceblue;
+    word-spacing: 7px;
+    letter-spacing: 2px;
+    
+  }
+  .temp{
+    flex-grow: 1;
+    margin-left:18px;
+    line-height:40px;
+  }
+  .wind{
+    flex-grow: 1;
+    margin-left:18px;
+    line-height:40px;
+  }
+  
+  .search{
+    margin-top: 10px;
+    flex-grow:.1;
+    text-align: center;
+    text-transform: uppercase;
+    
+  }
+  .undersearch{
+    display:flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  #search{
+    width:10vw;
+    height:4vh;
+    border-radius: 5px;
+    padding:3px;
+    border-color:2px solid rgba(255,255,255,0.7);
+    background: #7c7c7c2b;
+    color:white;
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    
+  }
+  .left{
+    display: flex;
+    flex-direction: column;
+     justify-content: space-between;  
+     background-image:url("../image/sky.jpg");
+     background-position: center;
+     background-size: cover;
+     width: 25vw;
+    }
+  #time{
+   text-align: center;
+   font-family:"Roboto";
+  }
+  #hr{
+    width:70%;
+    margin-left:30px ;
+  }
+  .x{
+    font-size: 3rem;
+    text-align: center;
+    color: antiquewhite;
+  }
+  .location{
+    color:white;
+    text-align: center;
+  }
+  .city{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img{
+    height: 60px;
+    width: 60px;
+  }
+  .btn{
+    
+      margin: .4em;
+      border-radius: 50%;
+      border: none;
+      height: 37px;
+      width: 37px;
+      outline: none;
+      background: #7c7c7c2b;
+      color: white;
+      cursor: pointer;
+      transition: 0.2s ease-in-out;
+    }
+    .btn:active{
+      background: #e8ece92b;
+    }
+   /* Media Query for screens with width up to 768px */
+  @media (max-width: 768px) {
+    .all {
+      flex-direction: column;
+    }
+    .left {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    .right {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Media Query for screens with width between 768px and 1024px */
+  @media (max-width: 1024px) {
+    .app {
+      font-size: 14px;
+    }
+    .left {
+      width: 40vw;
+      height: 30vw;
+    }
+    .right {
+      width: 40vw;
+      height: 80%;
+    }
+    #search{
+      width: 30vw;
+    }
+  }
+  
+  /* Media Query for screens with width above 1024px */
+  @media (min-width: 1024px) {
+    .app {
+      font-size: 16px;
+    }
+  }
+  
